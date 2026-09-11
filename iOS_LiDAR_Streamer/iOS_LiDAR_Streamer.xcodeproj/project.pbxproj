@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1234567890ABCDEF1234567890ABCDEF /* LiDARStreamerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCDEF1234567890ABCDE1 /* LiDARStreamerApp.swift */; };
+		1234567890ABCDEF1234567890ABCDE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCDEF1234567890ABCDE3 /* ContentView.swift */; };
+		1234567890ABCDEF1234567890ABCDE4 /* LiDARStreamerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1234567890ABCDEF1234567890ABCDE5 /* LiDARStreamerViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1234567890ABCDEF1234567890ABCDE1 /* LiDARStreamerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDARStreamerApp.swift; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE5 /* LiDARStreamerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiDARStreamerViewModel.swift; sourceTree = "<group>"; };
+		1234567890ABCDEF1234567890ABCDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1234567890ABCDEF1234567890ABCDE7 = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF1234567890ABCDE1 /* LiDARStreamerApp.swift */,
+				1234567890ABCDEF1234567890ABCDE3 /* ContentView.swift */,
+				1234567890ABCDEF1234567890ABCDE5 /* LiDARStreamerViewModel.swift */,
+				1234567890ABCDEF1234567890ABCDE6 /* Info.plist */,
+			);
+			name = iOS_LiDAR_Streamer;
+			sourceTree = "<group>";
+		};
+		1234567890ABCDEF1234567890ABCDE8 = {
+			isa = PBXGroup;
+			children = (
+				1234567890ABCDEF1234567890ABCDE7 /* iOS_LiDAR_Streamer */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1234567890ABCDEF1234567890ABCDE9 /* iOS_LiDAR_Streamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1234567890ABCDEF1234567890ABCDEA /* Build configuration list for PBXNativeTarget "iOS_LiDAR_Streamer" */;
+			buildPhases = (
+				1234567890ABCDEF1234567890ABCDEB /* Sources */,
+				1234567890ABCDEF1234567890ABCDEC /* Frameworks */,
+				1234567890ABCDEF1234567890ABCDED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_LiDAR_Streamer;
+			productName = iOS_LiDAR_Streamer;
+			productReference = 1234567890ABCDEF1234567890ABCDEE /* iOS_LiDAR_Streamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1234567890ABCDEF1234567890ABCDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "Your Name";
+			};
+			buildConfigurationList = 1234567890ABCDEF1234567890ABCDF0 /* Build configuration list for PBXProject "iOS_LiDAR_Streamer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1234567890ABCDEF1234567890ABCDE8 /* Sources */;
+			productRefGroup = 1234567890ABCDEF1234567890ABCDEF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1234567890ABCDEF1234567890ABCDE9 /* iOS_LiDAR_Streamer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1234567890ABCDEF1234567890ABCDED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostProcessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1234567890ABCDEF1234567890ABCDEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF /* LiDARStreamerApp.swift in Sources */,
+				1234567890ABCDEF1234567890ABCDEF1234567890ABCDE1 /* ContentView.swift in Sources */,
+				1234567890ABCDEF1234567890ABCDEF1234567890ABCDE2 /* LiDARStreamerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostProcessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1234567890ABCDEF1234567890ABCDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1234567890ABCDEF1234567890ABCDEFF /* Foundation.framework in Frameworks */,
+				1234567890ABCDEF1234567890ABCDEFFF /* UIKit.framework in Frameworks */,
+				1234567890ABCDEF1234567890ABCDEFFFF /* SwiftUI.framework in Frameworks */,
+				1234567890ABCDEF1234567890ABCDEFFFFFF /* ARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostProcessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1234567890ABCDEF1234567890ABCDF0 /* Debug */ = {
+			{
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = (null);
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASELENGTH = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECTIVE_MISMATCH = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MEMORY_OPERATIONS = YES;
+				CLANG_WARN_UNDECLARED_SELECTOR = YES;
+				CLANG_WARN_UNINITIALIZED_AUTOS = YES;
+				CLANG_WARN_UNINITIALIZED_PROPERTY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN_UNUSED_FUNCTION = YES;
+				CLANG_WARN_UNUSED_LABEL = YES;
+				CLANG_WARN_UNUSED_VARIABLE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_EAGERLY;
+				GCC_WARN_DIRECTIVE_MISMATCH = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = iOS_LiDAR_Streamer/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.lidarstreamer";
+				PRODUCT_BUNDLE_VERSION = 1.0;
+				PRODUCT_NAME = iOS_LiDAR_Streamer;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1234567890ABCDEF1234567890ABCDF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = (null);
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASELENGTH = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECTIVE_MISMATCH = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MEMORY_OPERATIONS = YES;
+				CLANG_WARN_UNDECLARED_SELECTOR = YES;
+				CLANG_WARN_UNINITIALIZED_AUTOS = YES;
+				CLANG_WARN_UNINITIALIZED_PROPERTY = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN_UNUSED_FUNCTION = YES;
+				CLANG_WARN_UNUSED_LABEL = YES;
+				CLANG_WARN_UNUSED_VARIABLE = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMIN_S_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_EAGERLY;
+				GCC_WARN_DIRECTIVE_MISMATCH = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = iOS_LiDAR_Streamer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourname.lidarstreamer";
+				PRODUCT_BUNDLE_VERSION = 1.0;
+				PRODUCT_NAME = iOS_LiDAR_Streamer;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = ;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1234567890ABCDEF1234567890ABCDF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = (null);
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+			};
+			name = Debug;
+		};
+		1234567890ABCDEF1234567890ABCDF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = (null);
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1234567890ABCDEF1234567890ABCDEA /* Build configuration list for PBXNativeTarget "iOS_LiDAR_Streamer" */ = {
+			isa = XCConfigurationList;
+			baseConfigurationReference = (null);
+			configurations = (
+				1234567890ABCDEF1234567890ABCDF0 /* Debug */,
+				1234567890ABCDEF1234567890ABCDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1234567890ABCDEF1234567890ABCDF0 /* Build configuration list for PBXProject "iOS_LiDAR_Streamer" */ = {
+			isa = XCConfigurationList;
+			baseConfigurationReference = (null);
+			configurations = (
+				1234567890ABCDEF1234567890ABCDF0 /* Debug */,
+				1234567890ABCDEF1234567890ABCDF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin PBXFileReference section */
+		1234567890ABCDEF1234567890ABCDEF1 /* Products */ = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.application;
+			name = iOS_LiDAR_Streamer.app;
+			path = iOS_LiDAR_Streamer.app;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1234567890ABCDEF1234567890ABCDEE /* iOS_LiDAR_Streamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_LiDAR_Streamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+	};
+	rootObject = 1234567890ABCDEF1234567890ABCDEF /* Project object */;
+}
